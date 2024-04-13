@@ -1,0 +1,103 @@
+.header {
+    background-color: #f5f5f5; 
+    padding: 10px 20px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .text-bold {
+    font-weight: bold; 
+    font-size: 1.5em;
+  }
+
+  .carousel-image {
+    height: 500px; 
+    object-fit: cover; 
+  }
+
+  
+  .carousel-caption input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5; 
+  }
+  
+  .card {
+    border: none !important; 
+    margin-bottom: 20px;
+    background-color: #f5f5f5; 
+  }
+  
+  .card-body {
+    text-align: center; 
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+
+  .text-card, .image-card {
+    height: 100%;
+  }
+
+  
+  .text-content {
+    height: 100%;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.55rem;
+  }
+  
+  .text-content .card-title,
+  .text-content .card-text {
+    margin-bottom: 0;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .no-gutters .card {
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-card {
+    height: 100%;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    height: 50%; 
+    width: 100%;
+  }
+
+  .pics {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+  }
+
+  
+  
